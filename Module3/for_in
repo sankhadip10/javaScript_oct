@@ -1,0 +1,16 @@
+var colours ={
+    primary:'Blue',
+    secondary:'Red',
+    tertiary:'White'
+}
+
+//in js ,the for-in loop allows to loop through the properties of an obj
+//syntx
+for(var colour in colours){
+    console.log(colour+"->"+colours[colour])
+}
+
+var coloursArray = ['Yellow','Green','Orange']
+for(var colour in coloursArray){
+    console.log(colour +'->'+coloursArray[colour])
+}
