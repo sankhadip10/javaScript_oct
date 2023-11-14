@@ -16,6 +16,7 @@ function subsetsOfTwo(arr){
     }
     return allpairs
 
+    
 }
 
 // Example usage
